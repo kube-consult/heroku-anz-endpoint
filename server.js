@@ -27,7 +27,7 @@ const configs = new Config();
 const init = async () => {
   try {
     await configs.read();
-    const PORT = configs.conf[0].service_port || 4000;
+    const PORT = process.env.PORT||configs.conf[0].service_port;
     app.listen(PORT, function () {
       logger("App listening on PORT " + PORT);
     });
