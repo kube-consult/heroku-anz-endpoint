@@ -1,7 +1,8 @@
 {
-  "name": "anz codeing challenge",
+  "name": "anz-codeing-challenge",
   "version": "1.0.0",
-  "description": "",
+  "description": "coding challenge",
+  "repository": "heroku-anz-endpoint",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
