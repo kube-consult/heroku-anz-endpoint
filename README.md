@@ -1,4 +1,3 @@
-# ECP Coding Challenge
 
 Basic Node js Express starter code.
 
