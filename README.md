@@ -14,18 +14,22 @@ git clone https://github.com/kube-consult/heroku-anz-endpoint.git
 cd heroku-anz-endpoint;
 ./build.bash
 
-Assuming you have heroku installed & have a heroku account you can update a contuous build using the following.
+Assuming you have heroku installed & have a heroku account you can update a continuous build using the following.
 
 git clone https://github.com/kube-consult/heroku-anz-endpoint.git
+
 cd heroku-anz-endpoint
 
 create an application only required for first run.
+
 heroku create heroku-anz-endpoint
 
 set the container stack only required for first run.
+
 heroku stack:set container
 
 continuous build 
+
 ./build.heroku.bash
 
 Or you can view my live heroku applicaiton at
